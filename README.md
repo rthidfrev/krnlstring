@@ -4,6 +4,9 @@
 [![crates.io](https://img.shields.io/crates/v/krnlstring.svg)](https://crates.io/crates/krnlstring)
 
 
+<img src="https://raw.githubusercontent.com/rthidfrev/krnlstring/master/assets/crab.png" alt="logo" width="200"/>
+
+
 `KRNLSTRING` is a Rust crate that provides safe abstractions for working with Windows Unicode strings (`UNICODE_STRING`). This crate is designed to be used in `#![no_std]` environments, making it suitable for drivers or other low-level programming where the Rust standard library cannot be used. It leverages the `alloc` crate for dynamic memory management without requiring the full standard library.
 
 ## Features
