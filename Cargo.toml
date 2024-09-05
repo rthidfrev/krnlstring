@@ -5,7 +5,11 @@ edition = "2021"
 license = "MIT"
 repository = "https://github.com/rthidfrev/krnlstring/"
 authors = ["rthidfrev"]
-
+documentation = "https://docs.rs/krnlstring"
+homepage = "https://github.com/rthidfrev/krnlstring/"
+keywords = ["windows", "unicode", "string", "no_std", "driver"]
+categories = ["os", "no-std"]
+description = "Safe Rust abstractions for handling Windows Unicode strings (`UNICODE_STRING`) in `#![no_std]` environments."
 
 
 [dependencies.windows-sys]
